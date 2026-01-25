@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Dev Mireya - AI & Engineering</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/config.js"></script>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-neutral-900 dark:text-white transition-colors duration-300 font-space">
+    <header class="sticky top-0 z-50 glass-nav border-b border-white/5 px-6 h-16 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-2">
+            <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
+                <span class="material-symbols-outlined text-white text-[20px]">hub</span>
+            </div>
+            <h2 class="text-white text-lg font-bold tracking-tight">Dev Mireya</h2>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center gap-8">
+            <a href="index.html" class="text-sm font-medium text-primary cursor-default">Home</a>
+            <a href="ourwork.html"
+                class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Works</a>
+            <a href="about.html"
+                class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">About</a>
+            <a href="contact.html"
+                class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-4">
+            <a href="contact.html"
+                class="hidden md:flex bg-white/10 hover:bg-white/20 text-white text-xs font-bold py-2 px-4 rounded-full transition-colors">
+                Get in Touch
+            </a>
+            <button class="md:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/5 text-white">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+    </header>
+    <main class="relative">
+        <div
+            class="relative min-h-[70vh] flex flex-col items-center justify-center px-6 py-12 text-center overflow-hidden">
+            <div class="absolute inset-0 z-0 opacity-40">
+                <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-primary/30 blur-[120px] rounded-full"></div>
+                <div class="absolute bottom-1/4 right-1/4 w-64 h-64 bg-white/10 blur-[100px] rounded-full"></div>
+            </div>
+            <div class="relative z-10 max-w-lg mx-auto">
+                <div
+                    class="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-3 py-1 rounded-full text-primary text-xs font-medium mb-4">
+                    <span class="material-symbols-outlined text-[14px]">bolt</span>
+                    NEXT-GEN ENGINEERING
+                </div>
+                <h1 class="text-white text-4xl lg:text-5xl font-bold leading-[1.1] tracking-[-0.03em] mb-4">
+                    Architecting the Digital Future
+                </h1>
+                <p class="text-neutral-400 text-base font-normal leading-relaxed mb-8 max-w-[360px] mx-auto">
+                    We build high-performance software systems and AI-integrated solutions that scale with your vision.
+                </p>
+                <div class="flex flex-col gap-3 w-full sm:w-auto">
+                    <a href="ourwork.html"
+                        class="bg-primary hover:bg-primary/90 text-white font-bold py-3 px-6 rounded-xl transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2 group">
+                        <span>Explore Our Work</span>
+                        <span
+                            class="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <div class="absolute inset-0 -z-10" data-alt="high-tech abstract background with green and white accents">
+            </div>
+        </div>
+        <section class="py-12 bg-background-light dark:bg-background-dark">
+            <div class="max-w-6xl mx-auto w-full px-6">
+                <div class="mb-6">
+                    <h3 class="text-white text-2xl font-bold leading-tight tracking-tight">Core Capabilities</h3>
+                    <p class="text-neutral-500 text-sm mt-1">Precision engineering meets creative intelligence</p>
+                </div>
+                <!-- Responsive Grid: 1 col mobile -> 3 cols desktop -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div
+                        class="flex flex-col gap-3 rounded-xl border border-white/10 bg-white/5 p-5 transition-all hover:bg-white/10">
+                        <div class="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-[24px]">code</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-lg font-bold">Full-Stack Dev</h2>
+                            <p class="text-neutral-400 text-sm leading-relaxed">Robust, scalable web and mobile
+                                applications built with modern frameworks.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col gap-3 rounded-xl border border-white/10 bg-white/5 p-5 transition-all hover:bg-white/10">
+                        <div class="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-[24px]">neurology</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-lg font-bold">AI Integration</h2>
+                            <p class="text-neutral-400 text-sm leading-relaxed">Embedding intelligent agents and
+                                predictive models into your business logic.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col gap-3 rounded-xl border border-white/10 bg-white/5 p-5 transition-all hover:bg-white/10">
+                        <div class="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-[24px]">cloud_sync</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <h2 class="text-white text-lg font-bold">Cloud Infrastructure</h2>
+                            <p class="text-neutral-400 text-sm leading-relaxed">Secure, high-availability architecture
+                                design and automated DevOps pipelines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-12 pb-24 bg-background-light dark:bg-[#0a0a0a]">
+            <div class="max-w-6xl mx-auto w-full px-6">
+                <div class="mb-8 flex items-end justify-between">
+                    <div>
+                        <h3 class="text-white text-2xl font-bold tracking-tight">Recent Deployments</h3>
+                        <p class="text-neutral-500 text-sm mt-1">Delivering impact across industries</p>
+                    </div>
+                    <a href="ourwork.html"
+                        class="text-primary text-sm font-bold flex items-center gap-1 hover:underline">
+                        View all <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+                    </a>
+                </div>
+                <!-- Responsive Grid: 1 col mobile -> 2 cols desktop -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="group relative overflow-hidden rounded-xl bg-[#1e1e1e] border border-white/5">
+                        <div class="aspect-[16/9] w-full overflow-hidden bg-neutral-800 relative">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                            <img alt="Owerri Eats Identity"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                data-alt="Owerri Eats Brand Identity" src="images/owerri-app.png" />
+                            <div class="absolute bottom-4 left-4 z-20">
+                                <span
+                                    class="bg-primary px-2 py-1 rounded text-[10px] font-bold text-white mb-2 inline-block uppercase tracking-wider">Graphic
+                                    Design</span>
+                                <h4 class="text-white text-lg font-bold">Owerri Eats Identity</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden rounded-xl bg-[#1e1e1e] border border-white/5">
+                        <div class="aspect-[16/9] w-full overflow-hidden bg-neutral-800 relative">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                            <!-- Using a generic tech placeholder for the website until we have a screenshot, or using the pattern image -->
+                            <img alt="AI Marketing Agency"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                data-alt="AI Marketing Agency Website" src="images/ai-marketing.png" />
+                            <div class="absolute bottom-4 left-4 z-20">
+                                <span
+                                    class="bg-primary px-2 py-1 rounded text-[10px] font-bold text-white mb-2 inline-block uppercase tracking-wider">Web
+                                    Design</span>
+                                <h4 class="text-white text-lg font-bold">AI Marketing Agency</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mobile Navigation (Hidden on md+) -->
+    <nav
+        class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-[400px] h-16 glass-nav border border-white/10 rounded-full flex items-center justify-around px-6 z-50 shadow-2xl">
+        <a href="index.html" class="flex flex-col items-center gap-1 text-primary">
+            <span class="material-symbols-outlined">home</span>
+            <span class="text-[10px] font-bold uppercase tracking-tighter">Home</span>
+        </a>
+        <a href="ourwork.html"
+            class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
+            <span class="material-symbols-outlined">grid_view</span>
+            <span class="text-[10px] font-bold uppercase tracking-tighter">Works</span>
+        </a>
+        <a href="about.html"
+            class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
+            <span class="material-symbols-outlined">person</span>
+            <span class="text-[10px] font-bold uppercase tracking-tighter">About</span>
+        </a>
+        <a href="contact.html"
+            class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
+            <span class="material-symbols-outlined">mail</span>
+            <span class="text-[10px] font-bold uppercase tracking-tighter">Contact</span>
+        </a>
+    </nav>
+</body>
+
+</html>

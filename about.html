@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Dev Mireya</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/config.js"></script>
+</head>
+
+<body class="bg-background-base text-white min-h-screen font-space">
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-background-base overflow-x-hidden">
+
+        <!-- Header: Different for Mobile vs Desktop -->
+        <div
+            class="md:hidden flex items-center bg-background-base p-4 pb-2 justify-between sticky top-0 z-50 border-b border-gray-800">
+            <a href="index.html"
+                class="text-white flex size-12 shrink-0 items-center justify-center rounded-full hover:bg-white/10 transition-colors cursor-pointer">
+                <span class="material-symbols-outlined">arrow_back_ios_new</span>
+            </a>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">About
+                Dev Mireya</h2>
+        </div>
+
+        <header
+            class="hidden md:flex sticky top-0 z-50 glass-nav border-b border-white/5 px-6 h-16 items-center justify-between">
+            <a href="index.html" class="flex items-center gap-2">
+                <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
+                    <span class="material-symbols-outlined text-white text-[20px]">hub</span>
+                </div>
+                <h2 class="text-white text-lg font-bold tracking-tight">Dev Mireya</h2>
+            </a>
+            <nav class="flex items-center gap-8">
+                <a href="index.html"
+                    class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Home</a>
+                <a href="ourwork.html"
+                    class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Works</a>
+                <a href="about.html" class="text-sm font-medium text-primary cursor-default">About</a>
+                <a href="contact.html"
+                    class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Contact</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="contact.html"
+                    class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold py-2 px-4 rounded-full transition-colors">
+                    Get in Touch
+                </a>
+            </div>
+        </header>
+
+        <div class="h-4 bg-background-base md:hidden"></div>
+
+        <div class="container mx-auto max-w-5xl md:py-8">
+            <div class="@container">
+                <div class="px-4 py-3">
+                    <div class="w-full h-48 sm:h-64 md:h-80 bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-gray-800 rounded-xl shadow-lg border border-gray-800"
+                        data-alt="Futuristic server room with green neon accents"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDkwJa2w1fiAUen2YQ_DhUIkSjYyMwplYICVEtGuF4C9rAUQFBYvm_4In5melv3DreuQbv_B-oY2oImOe7kOL9zi0UcKOJSp7k83P32D4rL9uBvMEe8X9ljQ6rMRWbAMeJx-hW6_7kUKNsC6kin6GFNSDMgqm028XgARQ4gIozTJaBbLdBZT2ofgFsLXh3o-93cpHhtN_Q6FbfOey5Wlv2mZKAUxgEcKvYSYrCKkW6Jo1XSL9ctgZFEbaDZTTSkv-eSp5REZHUBiM8");'>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:grid md:grid-cols-2 md:gap-12 md:px-4 md:py-8">
+                <div>
+                    <div class="px-4 pt-4 pb-2 md:px-0">
+                        <h1
+                            class="text-white tracking-tight text-3xl sm:text-4xl font-bold leading-tight font-display mb-2">
+                            Engineering Intelligence.
+                        </h1>
+                    </div>
+                    <div class="px-4 py-2 md:px-0">
+                        <p class="text-gray-300 text-sm sm:text-base font-normal leading-relaxed opacity-90">
+                            At Dev Mireya, we don't just write code; we architect ecosystems. We are a collective of
+                            systems engineers, AI researchers, and product strategists dedicated to building the next
+                            generation of digital infrastructure.
+                        </p>
+                        <p class="text-gray-300 text-sm sm:text-base font-normal leading-relaxed pt-3 opacity-90">
+                            Our mission is to democratize access to enterprise-grade AI and scalable software
+                            architectures for ambitious startups and forward-thinking enterprises.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="px-4 mt-6 md:mt-0 md:px-0">
+                    <h3 class="text-white text-lg font-bold font-display mb-3">Performance Metrics</h3>
+                    <!-- Responsive Grid for Stats -->
+                    <div class="grid grid-cols-2 gap-3">
+                        <div
+                            class="flex flex-col gap-1.5 rounded-xl p-4 border border-primary/30 bg-background-card hover:border-primary/50 transition-colors">
+                            <div class="flex items-center gap-2 text-primary">
+                                <span class="material-symbols-outlined text-[20px]">memory</span>
+                                <p class="text-xs font-bold uppercase tracking-wider">Latency</p>
+                            </div>
+                            <p class="text-white tracking-tight text-2xl font-bold">&lt;50ms</p>
+                            <p class="text-gray-400 text-xs font-medium">Global Edge Response</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-1.5 rounded-xl p-4 border border-primary/30 bg-background-card hover:border-primary/50 transition-colors">
+                            <div class="flex items-center gap-2 text-primary">
+                                <span class="material-symbols-outlined text-[20px]">security</span>
+                                <p class="text-xs font-bold uppercase tracking-wider">Security</p>
+                            </div>
+                            <p class="text-white tracking-tight text-2xl font-bold">99.9%</p>
+                            <p class="text-gray-400 text-xs font-medium">Threat Mitigation</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-1.5 rounded-xl p-4 border border-primary/30 bg-background-card col-span-2 hover:border-primary/50 transition-colors">
+                            <div class="flex items-center gap-2 text-primary">
+                                <span class="material-symbols-outlined text-[20px]">rocket_launch</span>
+                                <p class="text-xs font-bold uppercase tracking-wider">Deployment Velocity</p>
+                            </div>
+                            <div class="flex items-baseline gap-2">
+                                <p class="text-white tracking-tight text-2xl font-bold">3x Faster</p>
+                                <p class="text-gray-400 text-xs font-medium">Time-to-Market vs Industry Avg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-4 space-y-4 md:grid md:grid-cols-2 md:space-y-0 md:gap-4 md:mt-8">
+                <div
+                    class="flex gap-4 items-start p-4 rounded-xl bg-background-card border border-primary/20 hover:border-primary/40 transition-colors">
+                    <div class="p-2 bg-primary/10 rounded-lg text-primary">
+                        <span class="material-symbols-outlined">architecture</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white font-display text-base">Scalable Architecture</h4>
+                        <p class="text-xs sm:text-sm text-gray-400 mt-1">Microservices and serverless patterns designed
+                            for infinite scale.</p>
+                    </div>
+                </div>
+                <div
+                    class="flex gap-4 items-start p-4 rounded-xl bg-background-card border border-primary/20 hover:border-primary/40 transition-colors">
+                    <div class="p-2 bg-primary/10 rounded-lg text-primary">
+                        <span class="material-symbols-outlined">psychology</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white font-display text-base">Neural Networks</h4>
+                        <p class="text-xs sm:text-sm text-gray-400 mt-1">Custom ML models optimized for your specific
+                            business logic.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-4 mt-8">
+                <a href="contact.html"
+                    class="w-full md:w-auto md:px-12 bg-primary hover:bg-[#006400] text-white font-bold py-3 rounded-xl shadow-lg transition-colors flex items-center justify-center gap-2 mx-auto">
+                    <span>Start a Project</span>
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+            <div class="h-20 bg-background-base md:h-12"></div>
+        </div>
+
+        <!-- Mobile Bottom Nav -->
+        <nav
+            class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-[400px] h-16 glass-nav border border-white/10 rounded-full flex items-center justify-around px-6 z-50 shadow-2xl">
+            <a href="index.html"
+                class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
+                <span class="material-symbols-outlined">home</span>
+                <span class="text-[10px] uppercase tracking-tighter">Home</span>
+            </a>
+            <a href="ourwork.html"
+                class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
+                <span class="material-symbols-outlined">grid_view</span>
+                <span class="text-[10px] uppercase tracking-tighter">Works</span>
+            </a>
+            <a href="about.html" class="flex flex-col items-center gap-1 text-primary">
+                <span class="material-symbols-outlined">person</span>
+                <span class="text-[10px] font-bold uppercase tracking-tighter">About</span>
+            </a>
+            <a href="contact.html"
+                class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
+                <span class="material-symbols-outlined">mail</span>
+                <span class="text-[10px] uppercase tracking-tighter">Contact</span>
+            </a>
+        </nav>
+    </div>
+</body>
+
+</html>
