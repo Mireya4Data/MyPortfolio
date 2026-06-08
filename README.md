@@ -1,77 +1,90 @@
-# Personal Developer Portfolio Website
+ Dev Mireya — Freelance Software Engineer Portfolio
 
-## Overview
+Welcome to my personal developer portfolio showcasing my work in backend development, full-stack web applications, and system design.
 
-This is a personal portfolio website designed to showcase my skills, projects, and technical expertise as a Software Engineer, Backend Developer, and Web Developer.
+This portfolio represents my hands-on experience building real-world applications including booking systems, e-commerce platforms, and digital agency websites.
 
-The website serves as a central platform where potential clients, recruiters, and collaborators can explore my work, understand my capabilities, and connect with me for professional opportunities.
 
----
+ 👨‍💻 About Me
 
-## Purpose
+I am a Software Engineer specializing in:
 
-The goal of this portfolio is to present my software development experience in a clear, structured, and professional manner, highlighting both technical and creative abilities.
+- Backend Development (Django, Python)
+- Web Application Development
+- Booking & Reservation Systems
+- REST API Design
+- Frontend Integration (HTML, CSS, JavaScript, Tailwind)
 
-It demonstrates my ability to design and develop responsive web interfaces using core frontend technologies.
+I focus on building scalable, real-world systems that solve business problems.
 
----
 
-## Key Features
+ 🚀 Featured Projects
 
-* Professional landing page with personal introduction
-* Skills showcase (Frontend, Backend, Design, Tools)
-* Project showcase section
-* Contact section for collaboration opportunities
-* Responsive design for mobile and desktop users
-* Smooth navigation and modern UI structure
+ 🏆 Royal Crown Salon Booking System
+A full-stack salon booking platform that allows users to:
+- Register and log in
+- Book appointments with specific staff
+- View and cancel bookings
+- Receive email notifications
+- Admin dashboard for managing users and appointments
 
----
+Tech Stack: Python, Django, JavaScript, HTML, CSS
 
-## Skills Highlighted
 
-### Technical Skills
+ 🏠 FUTO Hostel Reservation App
+A mobile-first hostel booking system built for students to:
+- Browse available hostels
+- View room types and availability
+- Book rooms through a guided UI flow
 
-* HTML5
-* CSS3
-* JavaScript
+Tech Stack: Flutter, Dart
 
-### Additional Skills
 
-* Video Editing
-* Graphic Design
-* UI Presentation Design
+ 🍔 Owerri Food Express
+A modern food delivery UI concept with:
+- Restaurant browsing interface
+- Clean UX flow for ordering food
+- Responsive design
 
----
+Tech Stack: React, TypeScript, Tailwind CSS
 
-## Projects Featured
 
-* Royal Crown Salon Booking System
-* Student Hostel Reservation App
-* Food Delivery Platform UI
-* MINEX Agency Website
+ 🏢 MINEX Agency Website
+A digital agency website focused on:
+- SEO services
+- WordPress solutions
+- Business growth strategy presentation
 
----
+Tech Stack: HTML, CSS, JavaScript
 
-## Design Focus
 
-* Clean and minimal layout
-* Professional color combinations
-* User-friendly navigation
-* Mobile-first responsive design
+ 🎯 Skills
 
----
+- Python / Django
+- JavaScript (Vanilla + React basics)
+- HTML / CSS / Tailwind CSS
+- Java
+- UI Design & Frontend Layout
+- System Design (Beginner–Intermediate)
+- Git & GitHub
+  
 
-## Future Improvements
 
-* Add blog section for technical articles
-* Dark mode support
-* Interactive project filtering
-* Downloadable CV section
-* Animations and micro-interactions
+ 📬 Contact Me
 
----
+- Email: 12saraneli@gmail.com  
+- Phone: +234 916 335 6143  
+- Location: Nigeria (Remote available)
 
-## Author
 
-Milagrosa
-Software Engineer | Backend Developer | UI Designer | Creative Technologist
+ 💼 Goal
+
+To work with startups and businesses to build scalable backend systems, APIs, and full-stack applications that improve efficiency and user experience.
+
+
+ 📌 Portfolio Purpose
+
+This portfolio demonstrates real-world development capability through deployed projects, not just tutorials or coursework.
+
+
+⭐ If you find my work interesting, feel free to connect or reach out for collaboration.
