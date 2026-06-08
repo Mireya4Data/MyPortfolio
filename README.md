@@ -1,4 +1,4 @@
- Dev Mireya — Freelance Software Engineer Portfolio
+ Dev Milagrosa  Software Engineer Portfolio
 
 Welcome to my personal developer portfolio showcasing my work in backend development, full-stack web applications, and system design.
 
