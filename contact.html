@@ -5,178 +5,129 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Contact Dev Mireya</title>
+
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/config.js"></script>
 </head>
 
-<body class="bg-charcoal font-inter text-white antialiased">
+<body class="bg-background-dark font-inter text-white antialiased">
 
-    <!-- Mobile Header -->
-    <div
-        class="md:hidden flex items-center p-4 justify-between sticky top-0 z-50 bg-charcoal/80 backdrop-blur-md border-b border-border-color">
-        <a href="index.html"
-            class="text-white flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-white/10 cursor-pointer transition-colors">
-            <span class="material-symbols-outlined">arrow_back</span>
-        </a>
-        <h2 class="text-white text-lg font-bold leading-tight tracking-tight flex-1 text-center pr-10">Dev Mireya</h2>
+<!-- HEADER -->
+<header class="hidden md:flex sticky top-0 z-50 glass-nav border-b border-white/5 px-6 h-16 items-center justify-between">
+
+    <a href="index.html" class="flex items-center gap-2">
+        <div class="bg-primary p-1.5 rounded-lg">
+            <span class="material-symbols-outlined text-white text-[20px]">code</span>
+        </div>
+        <h2 class="text-white text-lg font-bold">Dev Mireya</h2>
+    </a>
+
+    <nav class="flex items-center gap-8">
+        <a href="index.html" class="text-sm text-neutral-400 hover:text-white">Home</a>
+        <a href="ourwork.html" class="text-sm text-neutral-400 hover:text-white">Projects</a>
+        <a href="about.html" class="text-sm text-neutral-400 hover:text-white">About</a>
+        <a href="contact.html" class="text-sm text-primary font-bold">Contact</a>
+    </nav>
+
+    <a href="ourwork.html"
+       class="bg-primary px-4 py-2 rounded-full text-sm font-bold hover:brightness-110">
+        View Work
+    </a>
+
+</header>
+
+<main class="max-w-5xl mx-auto px-6 py-12">
+
+<!-- HERO -->
+<section class="text-center mb-10">
+    <h1 class="text-3xl md:text-4xl font-black">Let’s Build Something Powerful</h1>
+    <p class="text-gray-400 mt-3 max-w-xl mx-auto">
+        I help startups and businesses build scalable web applications, booking systems,
+        and backend systems using Django and modern web technologies.
+    </p>
+</section>
+
+<!-- CONTACT GRID -->
+<section class="grid md:grid-cols-2 gap-8">
+
+<!-- FORM -->
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6">
+
+    <h2 class="text-xl font-bold mb-4">Send a Project Request</h2>
+
+    <form class="space-y-4">
+
+        <input
+            class="w-full px-4 py-3 rounded-lg bg-black/30 border border-white/10 text-white"
+            placeholder="Your Name"
+            type="text"
+        />
+
+        <input
+            class="w-full px-4 py-3 rounded-lg bg-black/30 border border-white/10 text-white"
+            placeholder="Your Email"
+            type="email"
+        />
+
+        <select class="w-full px-4 py-3 rounded-lg bg-black/30 border border-white/10 text-white">
+            <option>Web Application Development</option>
+            <option>Backend / Django API</option>
+            <option>Booking / Reservation System</option>
+            <option>Website Fix / Improvement</option>
+        </select>
+
+        <textarea
+            class="w-full px-4 py-3 rounded-lg bg-black/30 border border-white/10 text-white"
+            rows="5"
+            placeholder="Describe your project..."
+        ></textarea>
+
+        <button class="w-full bg-primary py-3 rounded-lg font-bold hover:brightness-110">
+            Send Request
+        </button>
+
+    </form>
+</div>
+
+<!-- INFO -->
+<div class="space-y-4">
+
+    <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+        <h3 class="font-bold">Response Time</h3>
+        <p class="text-gray-400 text-sm mt-1">Usually within 24 hours</p>
     </div>
 
-    <!-- Desktop Header -->
-    <header
-        class="hidden md:flex sticky top-0 z-50 glass-nav border-b border-border-color px-6 h-16 items-center justify-between bg-charcoal/90">
-        <a href="index.html" class="flex items-center gap-2">
-            <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
-                <span class="material-symbols-outlined text-white text-[20px]">hub</span>
-            </div>
-            <h2 class="text-white text-lg font-bold tracking-tight">Dev Mireya</h2>
-        </a>
-        <nav class="flex items-center gap-8">
-            <a href="index.html"
-                class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Home</a>
-            <a href="ourwork.html"
-                class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Works</a>
-            <a href="about.html"
-                class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">About</a>
-            <a href="contact.html" class="text-sm font-medium text-primary cursor-default">Contact</a>
-        </nav>
-        <div class="flex items-center gap-4">
-            <!-- Placeholder to balance layout if needed, or keeping it clean -->
-        </div>
-    </header>
+    <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+        <h3 class="font-bold">Email</h3>
+        <p class="text-gray-400 text-sm mt-1">12saraneli@gmail.com</p>
+    </div>
 
-    <main class="max-w-screen-xl mx-auto md:py-12 px-4">
+    <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+        <h3 class="font-bold">WhatsApp / Call</h3>
+        <p class="text-gray-400 text-sm mt-1">+234 916 335 6143</p>
+    </div>
 
-        <div class="md:grid md:grid-cols-2 md:gap-12 lg:gap-24">
+    <div class="bg-white/5 border border-white/10 rounded-xl p-5">
+        <h3 class="font-bold">Location</h3>
+        <p class="text-gray-400 text-sm mt-1">Nigeria (Remote Available Worldwide)</p>
+    </div>
 
-            <!-- Intro & Form Section -->
-            <div>
-                <section class="pt-8 pb-4 md:pt-0">
-                    <h1 class="text-white tracking-tight text-3xl md:text-4xl font-bold leading-tight pb-2">Let's
-                        Connect</h1>
-                    <p class="text-gray-400 text-sm md:text-base font-normal leading-relaxed max-w-md">
-                        Ready to engineer your future? Reach out to our team of experts.
-                    </p>
-                </section>
-                <section class="py-4">
-                    <div class="bg-charcoal-card rounded-xl p-5 shadow-lg shadow-black/20 border border-border-color">
-                        <form class="space-y-4">
-                            <div>
-                                <label class="block text-xs font-medium text-gray-200 mb-1.5" for="name">Full
-                                    Name</label>
-                                <input
-                                    class="w-full px-3 py-2.5 rounded-lg border border-border-color bg-charcoal-input text-white text-sm focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none placeholder-gray-500"
-                                    id="name" name="name" placeholder="user name" type="text" />
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-gray-200 mb-1.5" for="email">Email
-                                    Address</label>
-                                <input
-                                    class="w-full px-3 py-2.5 rounded-lg border border-border-color bg-charcoal-input text-white text-sm focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none placeholder-gray-500"
-                                    id="email" name="email" placeholder="name@company.com" type="email" />
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-gray-200 mb-1.5"
-                                    for="message">Message</label>
-                                <textarea
-                                    class="w-full px-3 py-2.5 rounded-lg border border-border-color bg-charcoal-input text-white text-sm focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none resize-none placeholder-gray-500"
-                                    id="message" name="message" placeholder="Tell us about your project requirements..."
-                                    rows="4"></textarea>
-                            </div>
-                            <button
-                                class="w-full bg-primary hover:bg-green-700 text-white font-semibold py-3 rounded-lg shadow-lg shadow-primary/20 transition-all active:scale-[0.98] text-sm"
-                                type="submit">
-                                Send Message
-                            </button>
-                        </form>
-                    </div>
-                </section>
-            </div>
+</div>
 
-            <!-- Contact Info & Image Section -->
-            <div class="flex flex-col gap-6">
-                <section class="py-6 mb-4 md:mb-0 md:py-0 md:pt-8">
-                    <h3 class="text-white text-lg font-bold leading-tight tracking-tight pb-4">Contact Information</h3>
-                    <div class="space-y-3">
-                        <div
-                            class="flex items-center gap-3 bg-charcoal-card px-4 min-h-[60px] py-3 rounded-xl border border-border-color transition-colors hover:border-primary/50">
-                            <div
-                                class="text-primary flex items-center justify-center rounded-lg bg-primary/10 shrink-0 size-10">
-                                <span class="material-symbols-outlined text-[20px]">mail</span>
-                            </div>
-                            <div class="flex flex-col justify-center">
-                                <p class="text-white text-sm font-semibold leading-normal">Email Us</p>
-                                <p class="text-gray-400 text-xs font-normal leading-normal">12saraneli@gmail.com</p>
-                            </div>
-                        </div>
-                        <div
-                            class="flex items-center gap-3 bg-charcoal-card px-4 min-h-[60px] py-3 rounded-xl border border-border-color transition-colors hover:border-primary/50">
-                            <div
-                                class="text-primary flex items-center justify-center rounded-lg bg-primary/10 shrink-0 size-10">
-                                <span class="material-symbols-outlined text-[20px]">call</span>
-                            </div>
-                            <div class="flex flex-col justify-center">
-                                <p class="text-white text-sm font-semibold leading-normal">Call Us</p>
-                                <p class="text-gray-400 text-xs font-normal leading-normal">+23409163356143</p>
-                            </div>
-                        </div>
-                        <div
-                            class="flex items-center gap-3 bg-charcoal-card px-4 min-h-[60px] py-3 rounded-xl border border-border-color transition-colors hover:border-primary/50">
-                            <div
-                                class="text-primary flex items-center justify-center rounded-lg bg-primary/10 shrink-0 size-10">
-                                <span class="material-symbols-outlined text-[20px]">location_on</span>
-                            </div>
-                            <div class="flex flex-col justify-center">
-                                <p class="text-white text-sm font-semibold leading-normal">HQ</p>
-                                <p class="text-gray-400 text-xs font-normal leading-normal">FUTO, IMO State</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+</section>
 
-                <div class="pb-12 md:pb-0">
-                    <div
-                        class="relative h-48 w-full rounded-2xl overflow-hidden shadow-lg shadow-black/30 border border-border-color">
-                        <div class="absolute inset-0 bg-gradient-to-br from-primary to-black opacity-90"></div>
-                        <img alt="Modern office space"
-                            class="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
-                            data-alt="Abstract modern minimalist office interior workspace"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlS6qmQUdSfFvsXaTdmk7f7N3aFIWi8Zz5ECeDfyup207zXuEHUVajwivgaVRDIqjlnLAXVYpsvfBoEGnTMGMHYjusoP7L6CTEmq5oCZvv97AImcVTCYq-10vwKygNNZ3B4_aFPylG3MD9CUd4iYDTmiyKvhTBy1OBDgXlP4OtqpnXWv-NM6HLcVPIcZAGh65N3r0HvkrEN06dD-MBE7_6Wi8WAKBpcsGkm_dlcZ97Wuh96GJExb8pneihjJOb61yOuN3mjCM9oG8" />
-                        <div class="absolute inset-0 p-6 flex flex-col justify-end">
-                            <p class="text-white text-lg font-bold">Ready for the future?</p>
-                            <p class="text-gray-200 text-sm">Join 200+ companies using our AI solutions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- CTA -->
+<section class="text-center mt-14">
+    <h2 class="text-xl font-bold">Need a backend system or booking app?</h2>
+    <p class="text-gray-400 mt-2">I specialize in Django-based systems and scalable web apps.</p>
 
-        </div>
-    </main>
-    <div class="h-8 bg-charcoal md:hidden"></div>
+    <a href="ourwork.html"
+       class="inline-block mt-6 bg-primary px-6 py-3 rounded-full font-bold">
+        View Projects
+    </a>
+</section>
 
-    <!-- Mobile Bottom Nav -->
-    <nav
-        class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-[400px] h-16 glass-nav border border-white/10 rounded-full flex items-center justify-around px-6 z-50 shadow-2xl">
-        <a href="index.html"
-            class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
-            <span class="material-symbols-outlined">home</span>
-            <span class="text-[10px] uppercase tracking-tighter">Home</span>
-        </a>
-        <a href="ourwork.html"
-            class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
-            <span class="material-symbols-outlined">grid_view</span>
-            <span class="text-[10px] uppercase tracking-tighter">Works</span>
-        </a>
-        <a href="about.html"
-            class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
-            <span class="material-symbols-outlined">person</span>
-            <span class="text-[10px] uppercase tracking-tighter">About</span>
-        </a>
-        <a href="contact.html" class="flex flex-col items-center gap-1 text-primary">
-            <span class="material-symbols-outlined">mail</span>
-            <span class="text-[10px] font-bold uppercase tracking-tighter">Contact</span>
-        </a>
-    </nav>
+</main>
+
 </body>
-
 </html>
