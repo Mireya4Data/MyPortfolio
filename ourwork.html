@@ -4,288 +4,155 @@
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Dev Mireya - Works</title>
+  <title>Dev Mireya | Projects</title>
+
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/config.js"></script>
 </head>
 
 <body class="bg-background-dark font-inter text-white">
-  <div class="relative flex h-auto min-h-screen w-full flex-col bg-background-dark group/design-root overflow-x-hidden">
 
-    <!-- Mobile Header -->
-    <nav
-      class="md:hidden sticky top-0 z-50 flex items-center bg-background-dark/80 backdrop-blur-md p-4 pb-2 justify-between border-b border-white/10">
-      <a href="index.html" class="flex items-center gap-2">
-        <div class="text-primary flex size-12 shrink-0 items-center">
-          <span class="material-symbols-outlined text-3xl">terminal</span>
-        </div>
-        <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 ml-2">Dev Mireya</h2>
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+
+<!-- HEADER -->
+<header class="hidden md:flex sticky top-0 z-50 glass-nav border-b border-white/5 px-6 h-16 items-center justify-between">
+
+  <a href="index.html" class="flex items-center gap-2">
+    <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
+      <span class="material-symbols-outlined text-white text-[20px]">code</span>
+    </div>
+    <h2 class="text-white text-lg font-bold">Dev Mireya</h2>
+  </a>
+
+  <nav class="flex items-center gap-8">
+    <a href="index.html" class="text-sm text-neutral-400 hover:text-white">Home</a>
+    <a href="ourwork.html" class="text-sm text-primary font-bold">Projects</a>
+    <a href="about.html" class="text-sm text-neutral-400 hover:text-white">About</a>
+    <a href="contact.html" class="text-sm text-neutral-400 hover:text-white">Contact</a>
+  </nav>
+
+  <a href="contact.html"
+     class="bg-primary px-4 py-2 rounded-full text-sm font-bold hover:brightness-110">
+    Hire Me
+  </a>
+
+</header>
+
+<main class="max-w-6xl mx-auto px-6 py-12">
+
+<!-- HERO -->
+<section class="mb-10">
+  <h1 class="text-3xl md:text-4xl font-black text-white">Selected Projects</h1>
+  <p class="text-gray-400 mt-2">
+    Real-world applications I designed and developed for business and user-focused systems.
+  </p>
+</section>
+
+<!-- PROJECT GRID -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+  <!-- ROYAL CROWN -->
+  <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+    <h3 class="text-xl font-bold">Royal Crown Salon Booking System</h3>
+
+    <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+      A full-stack appointment booking system that allows users to register, log in,
+      book salon services, choose staff, and manage appointments.
+      Includes admin dashboard and email notifications.
+    </p>
+
+    <div class="mt-4 text-xs text-primary font-bold">
+      Django • Python • JavaScript • HTML • CSS
+    </div>
+
+    <div class="mt-5 flex gap-3">
+      <a href="https://github.com/Mireya4Data/royal-crown-salon"
+         class="text-sm text-white bg-primary px-4 py-2 rounded-lg">
+        View Code
       </a>
-      <div class="flex w-12 items-center justify-end">
-        <button
-          class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
-          <span class="material-symbols-outlined">menu</span>
-        </button>
-      </div>
-    </nav>
-
-    <!-- Desktop Header -->
-    <header
-      class="hidden md:flex sticky top-0 z-50 glass-nav border-b border-white/5 px-6 h-16 items-center justify-between">
-      <a href="index.html" class="flex items-center gap-2">
-        <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
-          <span class="material-symbols-outlined text-white text-[20px]">hub</span>
-        </div>
-        <h2 class="text-white text-lg font-bold tracking-tight">Dev Mireya</h2>
-      </a>
-      <nav class="flex items-center gap-8">
-        <a href="index.html" class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Home</a>
-        <a href="ourwork.html" class="text-sm font-medium text-primary cursor-default">Works</a>
-        <a href="about.html" class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">About</a>
-        <a href="contact.html"
-          class="text-sm font-medium text-neutral-400 hover:text-white transition-colors">Contact</a>
-      </nav>
-      <div class="flex items-center gap-4">
-        <a href="contact.html"
-          class="bg-white/10 hover:bg-white/20 text-white text-xs font-bold py-2 px-4 rounded-full transition-colors">
-          Start a Project
-        </a>
-      </div>
-    </header>
-
-    <main class="container mx-auto px-4 md:px-6 md:py-8">
-      <div class="pt-8 pb-4">
-        <h2 class="text-white tracking-tight text-3xl font-black leading-tight">Our Work</h2>
-        <p class="text-gray-300 text-sm mt-2">Innovation delivered across platforms.</p>
-      </div>
-
-      <!-- Category Navigation (Optional smooth scroll anchors could be added here) -->
-      <div class="flex gap-3 py-4 overflow-x-auto no-scrollbar scroll-smooth">
-        <a href="#app"
-          class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark border border-white/5 px-5 cursor-pointer hover:bg-white/5 transition-colors">
-          <p class="text-gray-300 text-xs font-bold leading-normal uppercase tracking-wide">App</p>
-        </a>
-        <a href="#graphic"
-          class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark border border-white/5 px-5 cursor-pointer hover:bg-white/5 transition-colors">
-          <p class="text-gray-300 text-xs font-bold leading-normal uppercase tracking-wide">Graphic Design</p>
-        </a>
-        <a href="#video"
-          class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark border border-white/5 px-5 cursor-pointer hover:bg-white/5 transition-colors">
-          <p class="text-gray-300 text-xs font-bold leading-normal uppercase tracking-wide">Video</p>
-        </a>
-        <a href="#web"
-          class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark border border-white/5 px-5 cursor-pointer hover:bg-white/5 transition-colors">
-          <p class="text-gray-300 text-xs font-bold leading-normal uppercase tracking-wide">Web Design</p>
-        </a>
-      </div>
-
-      <!-- Graphic Design Section -->
-      <section id="graphic" class="py-8">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="p-2 bg-primary/20 rounded-lg text-primary">
-            <span class="material-symbols-outlined">brush</span>
-          </div>
-          <h3 class="text-2xl font-bold text-white">Graphic Design</h3>
-        </div>
-        <!-- Owerri Eats Project -->
-        <div class="bg-card-dark border border-white/5 rounded-2xl p-6 shadow-xl">
-          <div class="flex flex-col md:flex-row gap-8 items-start">
-            <div class="w-full md:w-1/2 grid grid-cols-2 gap-4">
-              <div class="col-span-2 aspect-video bg-black/40 rounded-xl overflow-hidden ring-1 ring-white/10">
-                <img src="images/owerri-logo.png" alt="Owerri Eats Logo" class="w-full h-full object-contain" />
-              </div>
-              <div class="aspect-square bg-black/40 rounded-xl overflow-hidden ring-1 ring-white/10">
-                <img src="images/owerri-app.png" alt="Owerri Eats App Icon" class="w-full h-full object-contain" />
-              </div>
-              <div class="aspect-square bg-black/40 rounded-xl overflow-hidden ring-1 ring-white/10">
-                <img src="images/owerri-bag.jpg" alt="Owerri Eats Delivery Bag" class="w-full h-full object-cover" />
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 flex flex-col justify-center">
-              <h4 class="text-xl font-bold text-white mb-2">Owerri Eats Brand Identity</h4>
-              <span
-                class="inline-block bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded-md mb-4 w-fit">Identity
-                System</span>
-              <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Engineered a comprehensive brand identity including a minimalist vector logo and custom app iconography.
-                The 'Owerri Eats' logo combines local relevance with a fast-paced 'Super App' aesthetic. The secondary
-                app icon uses a circuit-pattern delivery bag to visually communicate the integration of AI technology
-                into everyday logistics. I focused on a cohesive Forest Green (#008000) palette to evoke trust and
-                growth.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Video Editing Section -->
-      <section id="video" class="py-8 border-t border-white/5">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="p-2 bg-primary/20 rounded-lg text-primary">
-            <span class="material-symbols-outlined">movie_edit</span>
-          </div>
-          <h3 class="text-2xl font-bold text-white">Video Editing</h3>
-        </div>
-        <div class="bg-card-dark border border-white/5 rounded-2xl p-6 shadow-xl">
-          <div class="flex flex-col md:flex-row-reverse gap-8 items-center">
-            <div
-              class="w-full md:w-1/2 aspect-video bg-black rounded-xl overflow-hidden shadow-2xl relative group cursor-pointer">
-              <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkwJa2w1fiAUen2YQ_DhUIkSjYyMwplYICVEtGuF4C9rAUQFBYvm_4In5melv3DreuQbv_B-oY2oImOe7kOL9zi0UcKOJSp7k83P32D4rL9uBvMEe8X9ljQ6rMRWbAMeJx-hW6_7kUKNsC6kin6GFNSDMgqm028XgARQ4gIozTJaBbLdBZT2ofgFsLXh3o-93cpHhtN_Q6FbfOey5Wlv2mZKAUxgEcKvYSYrCKkW6Jo1XSL9ctgZFEbaDZTTSkv-eSp5REZHUBiM8"
-                alt="Video Thumbnail"
-                class="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity">
-              <a href="https://drive.google.com/file/d/1Zn0iQuZCivsIvPGLCBG_fRjuo2735NYC/view?usp=drivesdk"
-                target="_blank" class="absolute inset-0 flex items-center justify-center">
-                <div
-                  class="w-16 h-16 bg-primary rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-[0_0_30px_rgba(0,128,0,0.5)]">
-                  <span class="material-symbols-outlined text-white text-3xl ml-1">play_arrow</span>
-                </div>
-              </a>
-            </div>
-            <div class="w-full md:w-1/2">
-              <h4 class="text-xl font-bold text-white mb-2">Cinematic AI Brand Reveal</h4>
-              <span
-                class="inline-block bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded-md mb-4 w-fit">Motion
-                Graphics</span>
-              <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                Produced a cinematic brand reveal video using state-of-the-art AI video synthesis models. The production
-                demonstrates my ability to leverage AI for rapid, high-fidelity marketing content creation. The video
-                bridges the gap between technical backend development and public-facing brand identity, featuring a
-                high-tech office environment and dynamic product visualizations.
-              </p>
-              <a href="https://drive.google.com/file/d/1Zn0iQuZCivsIvPGLCBG_fRjuo2735NYC/view?usp=drivesdk"
-                target="_blank" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:underline">
-                Watch Video <span class="material-symbols-outlined text-sm">open_in_new</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Web Design Section -->
-      <section id="web" class="py-8 border-t border-white/5">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="p-2 bg-primary/20 rounded-lg text-primary">
-            <span class="material-symbols-outlined">language</span>
-          </div>
-          <h3 class="text-2xl font-bold text-white">Website Design</h3>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <!-- AI Marketing Agency -->
-          <div
-            class="flex flex-col gap-4 p-5 rounded-2xl bg-card-dark border border-white/5 shadow-xl hover:border-white/10 transition-colors">
-            <div class="w-full aspect-video bg-black/40 rounded-xl overflow-hidden ring-1 ring-white/10 relative group">
-              <img src="images/ai-marketing-preview.jpg" alt="AI Marketing Agency Website"
-                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-              <div class="absolute bottom-4 left-4">
-                <h4 class="text-white text-lg font-bold">AI Marketing Agency</h4>
-                <p class="text-gray-300 text-xs">WordPress • Elementor • Astra</p>
-              </div>
-            </div>
-            <div class="flex-1">
-              <p class="text-gray-400 text-xs leading-relaxed mb-4">
-                Architected a high-performance digital presence optimized for high-conversion. Integrated AI-driven
-                content strategies and custom-designed hero assets to ensure a modern, professional brand voice that
-                scales across all device types.
-              </p>
-              <a href="https://aimarketingagency.wuaze.com/?i=1" target="_blank"
-                class="w-full mt-auto bg-white/5 hover:bg-white/10 text-white border border-white/10 text-xs font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-all">
-                <span>Visit Site</span>
-                <span class="material-symbols-outlined text-sm">open_in_new</span>
-              </a>
-            </div>
-          </div>
-
-          <!-- MInex -->
-          <div
-            class="flex flex-col gap-4 p-5 rounded-2xl bg-card-dark border border-white/5 shadow-xl hover:border-white/10 transition-colors">
-            <div class="w-full aspect-video bg-black/40 rounded-xl overflow-hidden ring-1 ring-white/10 relative group">
-              <img src="images/minex-preview.jpg" alt="Minex Website"
-                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-              <div class="absolute bottom-4 left-4">
-                <h4 class="text-white text-lg font-bold">MInex</h4>
-                <p class="text-gray-300 text-xs">Experimental AI Platform</p>
-              </div>
-            </div>
-            <div class="flex-1">
-              <p class="text-gray-400 text-xs leading-relaxed mb-4">
-                Deployed an experimental AI-generated platform to test rapid-deployment capabilities and automated
-                layout generation. Used as the research foundation for data-driven decisions on user flow and visual
-                hierarchy.
-              </p>
-              <a href="https://mireya4data.github.io/MInex/" target="_blank"
-                class="w-full mt-auto bg-white/5 hover:bg-white/10 text-white border border-white/10 text-xs font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-all">
-                <span>Visit Site</span>
-                <span class="material-symbols-outlined text-sm">open_in_new</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- App Design Section (Future) -->
-      <section id="app" class="py-8 border-t border-white/5 opacity-60">
-        <div class="flex items-center gap-3 mb-6">
-          <div class="p-2 bg-primary/20 rounded-lg text-primary">
-            <span class="material-symbols-outlined">smartphone</span>
-          </div>
-          <h3 class="text-2xl font-bold text-white">App Development</h3>
-        </div>
-        <div class="bg-card-dark border border-white/5 border-dashed rounded-2xl p-8 text-center">
-          <span class="material-symbols-outlined text-4xl text-gray-600 mb-2">pending</span>
-          <h4 class="text-lg font-bold text-white">Coming Soon</h4>
-          <p class="text-gray-400 text-sm">New mobile application projects launching shortly.</p>
-        </div>
-      </section>
-
-      <div class="mt-8 mb-24 md:mb-12">
-        <div class="@container">
-          <div
-            class="flex flex-col justify-end gap-6 px-4 py-12 text-center rounded-2xl bg-gradient-to-b from-card-dark to-background-dark border border-white/5">
-            <div class="flex flex-col gap-3">
-              <h1 class="text-white tracking-tight text-2xl font-black leading-tight @[480px]:text-4xl">
-                Ready to build?
-              </h1>
-              <p class="text-gray-300 text-sm font-normal leading-normal max-w-[720px] mx-auto">
-                Let's engineer your vision.
-              </p>
-            </div>
-            <div class="flex justify-center mt-4">
-              <a href="contact.html"
-                class="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] transition-all hover:brightness-110 active:scale-95 shadow-[0_0_20px_rgba(0,128,0,0.4)]">
-                <span class="truncate">Start Conversation</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!-- Mobile Bottom Nav -->
-    <nav
-      class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-[400px] h-16 glass-nav border border-white/10 rounded-full flex items-center justify-around px-6 z-50 shadow-2xl">
-      <a href="index.html" class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
-        <span class="material-symbols-outlined">home</span>
-        <span class="text-[10px] uppercase tracking-tighter">Home</span>
-      </a>
-      <a href="ourwork.html" class="flex flex-col items-center gap-1 text-primary">
-        <span class="material-symbols-outlined">grid_view</span>
-        <span class="text-[10px] font-bold uppercase tracking-tighter">Works</span>
-      </a>
-      <a href="about.html" class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
-        <span class="material-symbols-outlined">person</span>
-        <span class="text-[10px] uppercase tracking-tighter">About</span>
-      </a>
-      <a href="contact.html"
-        class="flex flex-col items-center gap-1 text-neutral-400 hover:text-white transition-colors">
-        <span class="material-symbols-outlined">mail</span>
-        <span class="text-[10px] uppercase tracking-tighter">Contact</span>
-      </a>
-    </nav>
+    </div>
   </div>
-</body>
 
+  <!-- HOSTEL APP -->
+  <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+    <h3 class="text-xl font-bold">FUTO Hostel Reservation App</h3>
+
+    <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+      A mobile hostel booking application where students can browse hostels,
+      view available rooms, and complete reservation flows with a structured UI experience.
+    </p>
+
+    <div class="mt-4 text-xs text-primary font-bold">
+      Flutter • Dart
+    </div>
+
+    <div class="mt-5 flex gap-3">
+      <a href="https://github.com/Mireya4Data/futo-hostel-app"
+         class="text-sm text-white bg-primary px-4 py-2 rounded-lg">
+        View Code
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOD EXPRESS -->
+  <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+    <h3 class="text-xl font-bold">Owerri Food Express</h3>
+
+    <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+      A food delivery platform UI built with a focus on clean design,
+      restaurant browsing, and modern user experience flow.
+    </p>
+
+    <div class="mt-4 text-xs text-primary font-bold">
+      React • TypeScript • Tailwind CSS
+    </div>
+
+    <div class="mt-5 flex gap-3">
+      <a href="https://github.com/Mireya4Data/owerri-food-express"
+         class="text-sm text-white bg-primary px-4 py-2 rounded-lg">
+        View Code
+      </a>
+    </div>
+  </div>
+
+  <!-- MINEX -->
+  <div class="p-6 rounded-2xl bg-white/5 border border-white/10">
+    <h3 class="text-xl font-bold">MINEX Agency Website</h3>
+
+    <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+      A digital agency website concept showcasing business services such as SEO,
+      WordPress development, and performance optimization.
+    </p>
+
+    <div class="mt-4 text-xs text-primary font-bold">
+      HTML • CSS • JavaScript
+    </div>
+
+    <div class="mt-5 flex gap-3">
+      <a href="https://mireya4data.github.io/MInex/"
+         class="text-sm text-white bg-primary px-4 py-2 rounded-lg">
+        Live Site
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="mt-16 text-center">
+  <h2 class="text-2xl font-bold">Have a project in mind?</h2>
+  <p class="text-gray-400 mt-2">Let’s build something scalable and production-ready.</p>
+
+  <a href="contact.html"
+     class="inline-block mt-6 bg-primary px-6 py-3 rounded-full font-bold">
+    Start a Project
+  </a>
+</section>
+
+</main>
+
+</div>
+
+</body>
 </html>
